@@ -2,4 +2,10 @@ const prompt = require("prompt-sync")();
 let x1 = parseInt(prompt("Valeur x du point A :"));
 let y1 = parseInt(prompt("Valeur y du point A :"));
 let z1 = parseInt(prompt("Valeur z du point A :"));
-console.log("La première position est : A(",x1,",",y1,",",z1,")")
+console.log("La première position est : A(",x1,",",y1,",",z1,").");
+let x2 = parseInt(prompt("Valeur x du point B :"));
+let y2 = parseInt(prompt("Valeur y du point B :"));
+let z2 = parseInt(prompt("Valeur z du point B :"));
+console.log("La deuxième position est : B(",x2,",",y2,",",z2,").");
+let distance = ((x2-x1)**2 + (y2-y1)**2 + (z2-z1)**2)**0.5;
+console.log("Distance :",distance.toFixed(2),".");
