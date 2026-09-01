@@ -1,0 +1,9 @@
+const prompt = require("prompt-sync")();
+let noteCC = parseInt(prompt("Note Contrôle continu :"));
+let projet = parseInt(prompt("Note Projet :"));
+let examen = parseInt(prompt("Note Examen :"));
+let note = (noteCC * 2 + projet * 3 + examen * 5)/10;
+console.log("Contrôle continu :",noteCC,".");
+console.log("Projet :",projet,".");
+console.log("Examen :",examen,".");
+console.log("Note finale :",note,".");
