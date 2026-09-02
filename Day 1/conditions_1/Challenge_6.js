@@ -20,4 +20,6 @@ switch(choix){
     case 4:
         console.log("Deconexion...");
         break;
+    default:
+        console.log("Choix invalide.");
 }   
