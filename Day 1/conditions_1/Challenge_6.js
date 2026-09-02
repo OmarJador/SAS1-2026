@@ -5,7 +5,7 @@ console.log("2 → Afficher les paramètres");
 console.log("3 → Afficher les notifications");
 console.log("4 → Se déconnecter");
 
-let choix = parseInt(prompt("Tapez votre choix:"))
+let choix = parseInt(prompt("Tapez votre choix:"));
 
 switch(choix){
     case 1:

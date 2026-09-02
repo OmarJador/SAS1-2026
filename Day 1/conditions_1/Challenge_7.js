@@ -1,14 +1,14 @@
 const prompt = require("prompt-sync")();
 
-console.log("1 → Lundi")
-console.log("2 → Mardi")
-console.log("3 → Mercredi")
-console.log("4 → Jeudi")
-console.log("5 → Vendredi")
-console.log("6 → Samedi")
-console.log("7 → Dimanche")
+console.log("1 → Lundi");
+console.log("2 → Mardi");
+console.log("3 → Mercredi");
+console.log("4 → Jeudi");
+console.log("5 → Vendredi");
+console.log("6 → Samedi");
+console.log("7 → Dimanche");
 
-let num = parseInt(prompt("Tapez votre numero :"))
+let num = parseInt(prompt("Tapez votre numero :"));
 
 switch(num){
 
