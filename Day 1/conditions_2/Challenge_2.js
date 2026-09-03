@@ -11,6 +11,6 @@ switch(color){
     case "vert": console.log("vert   → Vous pouvez passer");
         break;
     default:
-        console.log("Couleur invalide.")
+        console.log("Couleur invalide.");
 
 }
