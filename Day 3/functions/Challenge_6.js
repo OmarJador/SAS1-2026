@@ -1,16 +1,10 @@
 function verifierMotDePasse (motDePasse){
 
-    length = motDePasse.length;
-    
-    if(length>=8 && motDePasse.includes("@")){
+    if(motDePasse.length>=8 && motDePasse.includes("@")){
 
         return "verification de ("+motDePasse+") ➔ "+true;
 
-
-    }else{
-        return "verification de ("+motDePasse+") ➔ "+false;
-    }
-
+    }return "verification de ("+motDePasse+") ➔ "+false;
 }
 
 // console.log(verifierMotDePasse("code1234"));
