@@ -1,6 +1,5 @@
 function fusionnerTableaux(tab1, tab2){
     let tab3 = [];
-    let max = tab1.length + tab2.length
     let counter = 0;
     for(i=0; i<tab1.length; i++){
 
