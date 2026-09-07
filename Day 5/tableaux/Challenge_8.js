@@ -1,21 +1,18 @@
 function supprimerDoublons(tab){
-    let newTab = [];
+let result=[];
+for(let i = 0; i <=tab.length-1; i++) {
+    let found=false;
     let counter = 0;
-    for(let i=0; i<tab.length; i++){
-        for(let j=0; j<tab.length; j++){
-            counter = 0;
-            if(tab[i]){
-
-
-                
-
-            }
-
-
+    for(let j = 0; j < result.length; j++) {
+        if(tab[i]==result[j]){
+            found=true;
+            break;
         }
-
+        counter++
     }
-    console.log()
+if(found==false){
+    result[counter] = tab[i]};
+} console.log(result);
 }
-// console.log(supprimerDoublons([1,2,3,1]))
-supprimerDoublons([1,2,3,4,1,3])
+
+supprimerDoublons([1,1,5,3,6,4,5,1,2]);
