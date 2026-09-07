@@ -1,6 +1,6 @@
 function calculerSomme(tab){
 
-    somme = 0;
+    let somme = 0;
     for(let i=0; i<tab.length; i++){
      
         somme += tab[i]

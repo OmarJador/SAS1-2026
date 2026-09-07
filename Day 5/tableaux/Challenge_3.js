@@ -10,4 +10,4 @@ function trouverMax(tab) {
     }return max
 
 }
-console.log(trouverMax([1,2,3,4,5,8,10]))
+console.log(trouverMax([12, 45, 7, 89, 23]))

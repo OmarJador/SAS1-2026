@@ -12,4 +12,4 @@ function contientElement(tab, valeur){
     return reponse
 }
 
-console.log(contientElement(["pomme", "orange"], "banane"))
+console.log(contientElement(["pomme", "orange","banane"], "banane"))
